@@ -1,0 +1,25 @@
+{
+  "$schema": "https://honestui.com/schema.json",
+  "style": "base-default",
+  "rsc": false,
+  "tsx": true,
+  "tailwind": {
+    "config": "",
+    "css": "resources/css/app.css",
+    "baseColor": "neutral",
+    "cssVariables": true,
+    "prefix": ""
+  },
+  "iconLibrary": "honestui/icons",
+  "rtl": false,
+  "aliases": {
+    "components": "@/honestui/components",
+    "utils": "@/honestui/lib/utils",
+    "ui": "@/honestui/components/ui",
+    "lib": "@/honestui/lib",
+    "hooks": "@/honestui/hooks"
+  },
+  "menuColor": "default",
+  "menuAccent": "subtle",
+  "registries": {}
+}

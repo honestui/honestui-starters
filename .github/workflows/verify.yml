@@ -1,0 +1,77 @@
+name: Verify templates
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  structure:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm run verify
+
+  template:
+    name: ${{ matrix.template }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        template:
+          - next-app
+          - vite-app
+          - start-app
+          - react-router-app
+          - astro-app
+          - next-monorepo
+          - vite-monorepo
+          - start-monorepo
+          - react-router-monorepo
+          - astro-monorepo
+    defaults:
+      run:
+        working-directory: templates/${{ matrix.template }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10.33.4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+          cache-dependency-path: templates/${{ matrix.template }}/pnpm-lock.yaml
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm verify
+
+  laravel:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: templates/laravel-app
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10.33.4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+          cache-dependency-path: templates/laravel-app/pnpm-lock.yaml
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: "8.4"
+          coverage: none
+      - run: composer install --no-interaction --prefer-dist
+      - run: pnpm install --frozen-lockfile
+      - run: npm run verify:frontend
+      - run: cp .env.example .env && php artisan key:generate --force
+      - run: composer test

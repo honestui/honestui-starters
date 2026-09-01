@@ -1,0 +1,14 @@
+{
+  "name": "honestui-vite-monorepo",
+  "private": true,
+  "packageManager": "pnpm@10.33.4",
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "typecheck": "turbo typecheck",
+    "verify": "turbo verify"
+  },
+  "devDependencies": {
+    "turbo": "^2.5.8"
+  }
+}

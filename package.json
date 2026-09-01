@@ -1,0 +1,10 @@
+{
+  "name": "honestui-starters",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate:monorepos": "node scripts/create-monorepos.mjs",
+    "sync:registry": "node scripts/sync-registry.mjs",
+    "verify": "node scripts/verify-templates.mjs"
+  }
+}

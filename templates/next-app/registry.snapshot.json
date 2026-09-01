@@ -1,0 +1,609 @@
+{
+  "source": "HonestUI public registry in this repository",
+  "itemCount": 83,
+  "fileCount": 104,
+  "items": [
+    {
+      "name": "accordion",
+      "type": "registry:ui",
+      "files": [
+        "components/ui/accordion.tsx"
+      ]
+    },
+    {
+      "name": "action-swap",
+      "type": "registry:component",
+      "files": [
+        "components/animated/action-swap.tsx"
+      ]
+    },
+    {
+      "name": "action-swap-blur",
+      "type": "registry:component",
+      "files": [
+        "components/animated/action-swap-blur.tsx"
+      ]
+    },
+    {
+      "name": "action-swap-cascade",
+      "type": "registry:component",
+      "files": [
+        "components/animated/action-swap-cascade.tsx"
+      ]
+    },
+    {
+      "name": "action-swap-roll",
+      "type": "registry:component",
+      "files": [
+        "components/animated/action-swap-roll.tsx"
+      ]
+    },
+    {
+      "name": "alert",
+      "type": "registry:ui",
+      "files": [
+        "components/ui/alert.tsx"
+      ]
+    },
+    {
+      "name": "alert-dialog",
+      "type": "registry:ui",
+      "files": [
+        "components/ui/alert-dialog.tsx"
+      ]
+    },
+    {
+      "name": "autocomplete",
+      "type": "registry:ui",
+      "files": [
+        "components/ui/autocomplete.tsx"
+      ]
+    },
+    {
+      "name": "avatar",
+      "type": "registry:ui",
+      "files": [
+        "components/ui/avatar.tsx"
+      ]
+    },
+    {
+      "name": "badge",
+      "type": "registry:ui",
+      "files": [
+        "components/ui/badge.tsx"
+      ]
+    },
+    {
+      "name": "blinds",
+      "type": "registry:component",
+      "files": [
+        "components/shaders/blinds.tsx"
+      ]
+    },
+    {
+      "name": "bouncy-accordion",
+      "type": "registry:component",
+      "files": [
+        "components/animated/bouncy-accordion.tsx"
+      ]
+    },
+    {
+      "name": "breadcrumb",
+      "type": "registry:ui",
+      "files": [
+        "components/ui/breadcrumb.tsx"
+      ]
+    },
+    {
+      "name": "brush",
+      "type": "registry:ui",
+      "files": [
+        "components/ui/brush.tsx"
+      ]
+    },
+    {
+      "name": "button",
+      "type": "registry:ui",
+      "files": [
+        "components/ui/button.tsx"
+      ]
+    },
+    {
+      "name": "card",
+      "type": "registry:ui",
+      "files": [
+        "components/ui/card.tsx"
+      ]
+    },
+    {
+      "name": "chart",
+      "type": "registry:ui",
+      "files": [
+        "components/ui/chart.tsx"
+      ]
+    },
+    {
+      "name": "checkbox",
+      "type": "registry:ui",
+      "files": [
+        "components/ui/checkbox.tsx"
+      ]
+    },
+    {
+      "name": "checkbox-group",
+      "type": "registry:ui",
+      "files": [
+        "components/ui/checkbox-group.tsx"
+      ]
+    },
+    {
+      "name": "chromatic-image",
+      "type": "registry:component",
+      "files": [
+        "components/shaders/chromatic-image.tsx"
+      ]
+    },
+    {
+      "name": "chromatic-text-reveal",
+      "type": "registry:component",
+      "files": [
+        "components/animated/chromatic-text-reveal.tsx"
+      ]
+    },
+    {
+      "name": "collapsible",
+      "type": "registry:ui",
+      "files": [
+        "components/ui/collapsible.tsx"
+      ]
+    },
+    {
+      "name": "color-picker",
+      "type": "registry:ui",
+      "files": [
+        "components/ui/color-picker.tsx"
+      ]
+    },
+    {
+      "name": "combobox",
+      "type": "registry:ui",
+      "files": [
+        "components/ui/combobox.tsx"
+      ]
+    },
+    {
+      "name": "command",
+      "type": "registry:ui",
+      "files": [
+        "components/ui/command.tsx"
+      ]
+    },
+    {
+      "name": "context-menu",
+      "type": "registry:ui",
+      "files": [
+        "components/ui/context-menu.tsx"
+      ]
+    },
+    {
+      "name": "data-grid",
+      "type": "registry:component",
+      "files": [
+        "components/ui/data-grid/data-grid-column-header.tsx",
+        "components/ui/data-grid/data-grid-context.tsx",
+        "components/ui/data-grid/data-grid-pagination.tsx",
+        "components/ui/data-grid/data-grid-toolbar.tsx",
+        "components/ui/data-grid/data-grid-utils.ts",
+        "components/ui/data-grid/data-grid.tsx"
+      ]
+    },
+    {
+      "name": "data-table",
+      "type": "registry:component",
+      "files": [
+        "components/ui/data-table/data-table-column-header.tsx",
+        "components/ui/data-table/data-table-context.tsx",
+        "components/ui/data-table/data-table-filter.tsx",
+        "components/ui/data-table/data-table-pagination.tsx",
+        "components/ui/data-table/data-table-toolbar.tsx",
+        "components/ui/data-table/data-table-view-options.tsx",
+        "components/ui/data-table/data-table.tsx"
+      ]
+    },
+    {
+      "name": "date-range-picker",
+      "type": "registry:component",
+      "files": [
+        "components/ui/date-range-picker/date-range-calendar.tsx",
+        "components/ui/date-range-picker/date-range-picker.tsx",
+        "components/ui/date-range-picker/date-range-presets.tsx",
+        "components/ui/date-range-picker/date-range-utils.ts"
+      ]
+    },
+    {
+      "name": "dialog",
+      "type": "registry:ui",
+      "files": [
+        "components/ui/dialog.tsx"
+      ]
+    },
+    {
+      "name": "dither",
+      "type": "registry:component",
+      "files": [
+        "components/shaders/dither.tsx"
+      ]
+    },
+    {
+      "name": "dock",
+      "type": "registry:component",
+      "files": [
+        "components/animated/dock.tsx"
+      ]
+    },
+    {
+      "name": "dot",
+      "type": "registry:ui",
+      "files": [
+        "components/ui/dot.tsx"
+      ]
+    },
+    {
+      "name": "dropdown-menu",
+      "type": "registry:ui",
+      "files": [
+        "components/ui/dropdown-menu.tsx"
+      ]
+    },
+    {
+      "name": "empty",
+      "type": "registry:ui",
+      "files": [
+        "components/ui/empty.tsx"
+      ]
+    },
+    {
+      "name": "field",
+      "type": "registry:ui",
+      "files": [
+        "components/ui/field.tsx"
+      ]
+    },
+    {
+      "name": "fieldset",
+      "type": "registry:ui",
+      "files": [
+        "components/ui/fieldset.tsx"
+      ]
+    },
+    {
+      "name": "file-upload",
+      "type": "registry:component",
+      "files": [
+        "components/ui/file-upload/file-upload-context.tsx",
+        "components/ui/file-upload/file-upload-types.ts",
+        "components/ui/file-upload/file-upload-utils.ts",
+        "components/ui/file-upload/file-upload.tsx"
+      ]
+    },
+    {
+      "name": "filter-bar",
+      "type": "registry:component",
+      "files": [
+        "components/ui/filter-bar/filter-bar-context.tsx",
+        "components/ui/filter-bar/filter-bar-fields.tsx",
+        "components/ui/filter-bar/filter-bar-types.ts",
+        "components/ui/filter-bar/filter-bar-utils.ts",
+        "components/ui/filter-bar/filter-bar.tsx"
+      ]
+    },
+    {
+      "name": "form",
+      "type": "registry:ui",
+      "files": [
+        "components/ui/form.tsx"
+      ]
+    },
+    {
+      "name": "frame",
+      "type": "registry:ui",
+      "files": [
+        "components/ui/frame.tsx"
+      ]
+    },
+    {
+      "name": "grainient",
+      "type": "registry:component",
+      "files": [
+        "components/shaders/grainient.tsx"
+      ]
+    },
+    {
+      "name": "group",
+      "type": "registry:ui",
+      "files": [
+        "components/ui/group.tsx"
+      ]
+    },
+    {
+      "name": "input",
+      "type": "registry:ui",
+      "files": [
+        "components/ui/input.tsx"
+      ]
+    },
+    {
+      "name": "input-group",
+      "type": "registry:ui",
+      "files": [
+        "components/ui/input-group.tsx"
+      ]
+    },
+    {
+      "name": "kanban-list",
+      "type": "registry:ui",
+      "files": [
+        "components/ui/kanban-list.tsx"
+      ]
+    },
+    {
+      "name": "label",
+      "type": "registry:ui",
+      "files": [
+        "components/ui/label.tsx"
+      ]
+    },
+    {
+      "name": "legend",
+      "type": "registry:ui",
+      "files": [
+        "components/ui/legend.tsx"
+      ]
+    },
+    {
+      "name": "light-rays",
+      "type": "registry:component",
+      "files": [
+        "components/shaders/light-rays.tsx"
+      ]
+    },
+    {
+      "name": "magnetic",
+      "type": "registry:component",
+      "files": [
+        "components/animated/magnetic.tsx"
+      ]
+    },
+    {
+      "name": "marquee",
+      "type": "registry:component",
+      "files": [
+        "components/animated/marquee.tsx"
+      ]
+    },
+    {
+      "name": "menu",
+      "type": "registry:ui",
+      "files": [
+        "components/ui/menu.tsx"
+      ]
+    },
+    {
+      "name": "meter",
+      "type": "registry:ui",
+      "files": [
+        "components/ui/meter.tsx"
+      ]
+    },
+    {
+      "name": "number-field",
+      "type": "registry:ui",
+      "files": [
+        "components/ui/number-field.tsx"
+      ]
+    },
+    {
+      "name": "number-ticker",
+      "type": "registry:component",
+      "files": [
+        "components/animated/number-ticker.tsx"
+      ]
+    },
+    {
+      "name": "pagination",
+      "type": "registry:ui",
+      "files": [
+        "components/ui/pagination.tsx"
+      ]
+    },
+    {
+      "name": "popover",
+      "type": "registry:ui",
+      "files": [
+        "components/ui/popover.tsx"
+      ]
+    },
+    {
+      "name": "preview-card",
+      "type": "registry:ui",
+      "files": [
+        "components/ui/preview-card.tsx"
+      ]
+    },
+    {
+      "name": "progress",
+      "type": "registry:ui",
+      "files": [
+        "components/ui/progress.tsx"
+      ]
+    },
+    {
+      "name": "radio-group",
+      "type": "registry:ui",
+      "files": [
+        "components/ui/radio-group.tsx"
+      ]
+    },
+    {
+      "name": "scroll-area",
+      "type": "registry:ui",
+      "files": [
+        "components/ui/scroll-area.tsx"
+      ]
+    },
+    {
+      "name": "select",
+      "type": "registry:ui",
+      "files": [
+        "components/ui/select.tsx"
+      ]
+    },
+    {
+      "name": "separator",
+      "type": "registry:ui",
+      "files": [
+        "components/ui/separator.tsx"
+      ]
+    },
+    {
+      "name": "shared-layout-bg",
+      "type": "registry:component",
+      "files": [
+        "components/animated/shared-layout-bg.tsx"
+      ]
+    },
+    {
+      "name": "sheet",
+      "type": "registry:ui",
+      "files": [
+        "components/ui/sheet.tsx"
+      ]
+    },
+    {
+      "name": "skeleton",
+      "type": "registry:ui",
+      "files": [
+        "components/ui/skeleton.tsx"
+      ]
+    },
+    {
+      "name": "slider",
+      "type": "registry:ui",
+      "files": [
+        "components/ui/slider.tsx"
+      ]
+    },
+    {
+      "name": "switch",
+      "type": "registry:ui",
+      "files": [
+        "components/ui/switch.tsx"
+      ]
+    },
+    {
+      "name": "table",
+      "type": "registry:ui",
+      "files": [
+        "components/ui/table.tsx"
+      ]
+    },
+    {
+      "name": "tabs",
+      "type": "registry:ui",
+      "files": [
+        "components/ui/tabs.tsx"
+      ]
+    },
+    {
+      "name": "text-reveal",
+      "type": "registry:component",
+      "files": [
+        "components/animated/text-reveal.tsx"
+      ]
+    },
+    {
+      "name": "text-shimmer",
+      "type": "registry:component",
+      "files": [
+        "components/animated/text-shimmer.tsx"
+      ]
+    },
+    {
+      "name": "textarea",
+      "type": "registry:ui",
+      "files": [
+        "components/ui/textarea.tsx"
+      ]
+    },
+    {
+      "name": "tilt-card",
+      "type": "registry:component",
+      "files": [
+        "components/animated/tilt-card.tsx"
+      ]
+    },
+    {
+      "name": "toast",
+      "type": "registry:ui",
+      "files": [
+        "components/ui/toast.tsx"
+      ]
+    },
+    {
+      "name": "toast-gooey",
+      "type": "registry:ui",
+      "files": [
+        "components/ui/toast-gooey.tsx"
+      ]
+    },
+    {
+      "name": "toast-gooey-icons",
+      "type": "registry:ui",
+      "files": [
+        "components/ui/toast-gooey-icons.tsx"
+      ]
+    },
+    {
+      "name": "toast-gooey-renderer",
+      "type": "registry:ui",
+      "files": [
+        "components/ui/toast-gooey-renderer.tsx"
+      ]
+    },
+    {
+      "name": "toast-gooey-types",
+      "type": "registry:ui",
+      "files": [
+        "components/ui/toast-gooey-types.ts"
+      ]
+    },
+    {
+      "name": "toggle",
+      "type": "registry:ui",
+      "files": [
+        "components/ui/toggle.tsx"
+      ]
+    },
+    {
+      "name": "toggle-group",
+      "type": "registry:ui",
+      "files": [
+        "components/ui/toggle-group.tsx"
+      ]
+    },
+    {
+      "name": "toolbar",
+      "type": "registry:ui",
+      "files": [
+        "components/ui/toolbar.tsx"
+      ]
+    },
+    {
+      "name": "tooltip",
+      "type": "registry:ui",
+      "files": [
+        "components/ui/tooltip.tsx"
+      ]
+    }
+  ]
+}
