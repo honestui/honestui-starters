@@ -1,7 +1,7 @@
 {
   "source": "HonestUI public registry in this repository",
-  "itemCount": 83,
-  "fileCount": 104,
+  "itemCount": 84,
+  "fileCount": 105,
   "items": [
     {
       "name": "accordion",
@@ -218,6 +218,13 @@
         "src/components/ui/date-range-picker/date-range-picker.tsx",
         "src/components/ui/date-range-picker/date-range-presets.tsx",
         "src/components/ui/date-range-picker/date-range-utils.ts"
+      ]
+    },
+    {
+      "name": "density",
+      "type": "registry:ui",
+      "files": [
+        "src/components/ui/density.tsx"
       ]
     },
     {
